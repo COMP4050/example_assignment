@@ -28,7 +28,7 @@ The task is to finish the animation given the folowing requirements
   * The constructor and the display method are given. The Pengin itself is about SIZE wide, and has head that is a circle of diameter SIZE, and a body that fits - with the exception of the tail, in a rectangle that is SIZE wide and 2 SIZE high. Note that the x,y position denotes the center of the circle that is the head, which is 2 SIZE above the feet.
   * The Penguin should have a beak object. Initialise the beak to be 0.45 SIZE to the right from the center of the head. Move the part of display that draws the beak to the display method of the beak. Call the display method of the Beak object instead.
   * The walk method should do the following:
-    * If the Penguin is not selected add dx to x. Update the y position to be 2 SIZE above the goundLevel of the land (Remeber, the head is 2 SIZE above the head). 
+    * If the Penguin is not selected add dx to x. Update the y position to be 2 SIZE above the goundLevel of the land (Remember, the head is 2 SIZE above the head). 
     * If the Penguin is close to peers the speed dx should be reduced by 5%, otherwise the speed dx should converge slowly to the target velocity. 
   * The isOver method should return true if they are on the circle that is the head, or the rectangle that is the body.
   * The isClose method should return true is any of the other peer's head positions if less than 2 SIZE from the penguins head position, and in front of the penguin.
