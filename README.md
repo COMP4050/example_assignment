@@ -20,7 +20,7 @@ The task is to finish the animation given the folowing requirements
 * Beak Class
   * The constructor should set the initial position, and size of the beak.
   * The display method should display the beak. Use part of the Penguin display method that draws the beak. You will have to modify it.
-  * The move method should move the beak when the squeakConter is strictly positive. This means that the beak should open up and then close again. The upper half up to 45 degrees above, and the lower half 45 degrees 45 degrees below the 0 degree line. You can use the attribute angle, angularSpeed to achieve the effect. Each time the beak is closed decrement the squeakCounter.
+  * The move method should move the beak when the squeakConter is strictly positive. This means that the beak should open up and then close again. The upper half should rotate up to 45 degrees above, and the lower half 45 degrees below the 0 degree line. Rotate around the left end of the beak. You can use the attribute angle, angularSpeed to achieve the effect. Each time the beak is closed decrement the squeakCounter.
   * The squeak method sets the squeakCounter to 3.
 * Lanscape Class
   * Don't touch the Lanscape class.
