@@ -85,7 +85,7 @@ class Penguin {
   }
 
   boolean isOver(float x, float y) {   
-    return dist(x, y, this.x, this.y)<=SIZE/2;
+    return dist(x, y, this.x, this.y)<=SIZE;
   }
 
   boolean isClose(Penguin[] peers) {

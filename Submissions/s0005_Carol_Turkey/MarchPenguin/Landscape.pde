@@ -8,6 +8,7 @@ class Landscape {
 
   void drawHills() {    
     fill(222);// We are going to draw a polygon out of the wave points
+    noStroke();
     beginShape();   
 
     // Iterate over horizontal pixels
@@ -25,6 +26,7 @@ class Landscape {
   
   void drawGround() {    
     fill(255);// We are going to draw a polygon out of the wave points
+    noStroke();
     beginShape();   
 
     // Iterate over horizontal pixels
